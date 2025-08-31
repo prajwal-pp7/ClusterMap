@@ -77,7 +77,7 @@ else:
 footer_html = """
 <style>
 div.stApp {
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 .footer {
     position: fixed;
@@ -93,8 +93,8 @@ div.stApp {
 }
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
 }
 .footer a {
@@ -109,7 +109,7 @@ div.stApp {
 <div class="footer">
     <div class="footer-container">
         <span>Developed by : <a href="mailto:210401@iitk.ac.in">210401@iitk.ac.in</a></span>
-        <a href="https://github.com/prajwal-pp7/ClusterMap" target="_blank">Project Link</a>
+        <span>Project Link : <a href="https://github.com/prajwal-pp7/ClusterMap" target="_blank">click here</a></span>
     </div>
 </div>
 """
